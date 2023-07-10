@@ -9,6 +9,4 @@ RUN apt-get update
 RUN apt-get install -y git
 
 # Clone the conf files into the docker container
-RUN git clone https://github.com/offensive-packaging/live-build.git \
-  cd live-build \
-  make build
+RUN git clone https://github.com/offensive-packaging/live-build.git
